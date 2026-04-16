@@ -1,0 +1,17 @@
+{
+  "name": "orbit-manager",
+  "private": true,
+  "scripts": {
+    "start": "node src/bot.js",
+    "deploy-commands": "node deploy-commands.js",
+    "check": "node --check src/bot.js",
+    "backup-db": "node scripts/backup-db.js",
+    "start-electrum:windows": ".\\start-electrum-rpc.bat"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.3.1",
+    "mysql2": "^3.19.1"
+  }
+}
